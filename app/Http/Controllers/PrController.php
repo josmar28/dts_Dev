@@ -10,6 +10,10 @@ use App\Http\Requests;
 
 class PrController extends Controller
 {
+    public function sample()
+    {
+        
+    }
     public function index(Request $req)
     {
 

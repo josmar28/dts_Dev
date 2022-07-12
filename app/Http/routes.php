@@ -87,7 +87,6 @@ Route::post('accounting/accept','AccountingController@save');
 Route::get('budget/accept','BudgetController@accept');
 Route::post('budget/accept','BudgetController@save');
 
-
 Route::get('document/filter', 'FilterController@index');
 Route::post('document/filter/update', 'FilterController@update');
 
